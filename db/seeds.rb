@@ -28,9 +28,7 @@ def generate_private
   i = 0
   while i < 10
     PrivateMessage.create(
-      content: Faker::Lorem.paragraph(sentence_count: 3)
-      recipient: User.sample.all
-      sender: User.sample.all
+      content: Faker::Lorem.paragraph(sentence_count: 3),
     )
     i += 1
   end
