@@ -95,8 +95,8 @@ end
 
 generate_city
 generate_tags
-generate_private
 generate_users
+generate_private
 generate_gossip
 generate_gossip_tag
 
